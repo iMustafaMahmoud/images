@@ -45,7 +45,7 @@ function loadLabeledImages() {
     labels.map(async label => {
       for(let i = 1; i <= 2; i++) {
         const img = await faceapi.fetchImages(
-          `https://raw.githubusercontent/WebDevSimplified/Face-Recognition-JavaScript/tree/master/labeled_images`
+          `https://github.com/iMustafaMahmoud/images/tree/main/labeled_images/${label}/${i}`
         );
       }
     })
